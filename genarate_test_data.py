@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 # Số lượng dữ liệu mẫu
-num_samples = 100
+num_samples = 30000
 
 # Loại dữ liệu có thể có
 data_types = ["Text", "Image", "JSON", "Blockchain TX"]
@@ -41,4 +41,4 @@ df = pd.DataFrame(dataset)
 # Lưu thành CSV
 df.to_csv("hash_algorithm_dataset.csv", index=False)
 
-print("✅ Dataset đã tạo và lưu vào 'hash_algorithm_test_test_dataset.csv'")
+print("✅ Dataset đã tạo và lưu vào 'hash_algorithm_test_dataset.csv'")
